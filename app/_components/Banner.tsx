@@ -21,7 +21,7 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
           data-aos-delay="600"
           className="text-3xl sm:text-5xl block mt-3 sm:mt-6"
         >
-          I'm <strong className="text-blue-400">{name || "Ngoc Minh 1"}</strong>
+          Im <strong className="text-blue-400">{name || "Ngoc Minh 1"}</strong>
         </p>
         <p
           data-aos="fade-left"
@@ -41,7 +41,7 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
           className="w-full h-full object-contain"
         />
       </div>
-      <Link href={resumeURL} target="_blank" className="banner__resume mt-10 w-fit h-fit bg-blue-400 text-dark-700 text-base sm:text-xl font-bold hover:bg-gray-hover-400 hover:text-white transition-all duration-300 px-4 py-2 sm:px-5 sm:py-3 rounded-lg text-center cursor-pointer">
+      <Link href={resumeURL ?? "#"} target="_blank" className="banner__resume mt-10 w-fit h-fit bg-blue-400 text-dark-700 text-base sm:text-xl font-bold hover:bg-gray-hover-400 hover:text-white transition-all duration-300 px-4 py-2 sm:px-5 sm:py-3 rounded-lg text-center cursor-pointer">
         <span>My resume</span>
       </Link>
     </section>

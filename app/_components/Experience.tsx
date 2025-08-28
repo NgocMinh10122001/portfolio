@@ -1,6 +1,5 @@
 "use client";
 import { IExperience } from "@/types/home.interface";
-import { it } from "node:test";
 import React, { useState } from "react";
 
 export default function Experience({
