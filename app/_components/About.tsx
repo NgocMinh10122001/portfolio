@@ -21,7 +21,7 @@ export default function About({
             alt="profile"
             width={200}
             height={200}
-            className="w-24 h-24 sm:w-32 sm:h-32 object-contain rounded-full"
+            className="w-24 h-24 sm:w-32 sm:h-32 object-cover rounded-full"
           />
         </div>
         <div

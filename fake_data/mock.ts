@@ -1,8 +1,13 @@
 import { INavigation } from "@/types/header.interface";
-import { IAbout, IContact, IExperience, IProject, ISkill } from "@/types/home.interface";
+import {
+  IAbout,
+  IContact,
+  IExperience,
+  IProject,
+  ISkill,
+} from "@/types/home.interface";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
-import { SiReact, SiJavascript, SiNodedotjs } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { SiSass } from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa6";
@@ -19,7 +24,9 @@ import { FaWordpress } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { IoLogoYoutube } from "react-icons/io";
+import { SiRadixui } from "react-icons/si";
+import { SiGreensock } from "react-icons/si";
+import { FaFacebookF } from "react-icons/fa6";
 
 // header links
 
@@ -47,38 +54,26 @@ export const navLinks: INavigation[] = [
 export const experienceData: IExperience[] = [
   {
     company: {
-      companyName: "Amazon Web Services",
-      companyURL: "https://aws.amazon.com/",
+      companyName: "Okhub Agency",
+      companyURL: "https://okhub.vn/",
     },
-    role: "Software Engineer",
-    duration: " July 2024 - Present",
+    role: "Intern Frontend Developer",
+    duration: "March 2025 - July 2025",
     description: [
-      "💙 Selected as one of 10 CSUF students for the prestigious Amazon Student Fellowship program",
-      "💙 Selected as one of 10 CSUF students for the prestigious Amazon Student Fellowship program 2",
+      "💙 Developed and maintained high-performance, responsive front-end features for the website using React.js, Next.js, and WordPress, contributing to improved page load speed and a smoother user experience.",
+      "💙 Built interactive user interfaces, including booking forms and search filters, integrated with RESTful APIs to fetch and display dynamic data.",
+      "💙 Implemented server-side rendering (SSR) using Next.js for critical pages, improving SEO rankings for key product pages by 20% and enhancing content discoverability",
     ],
   },
   {
     company: {
-      companyName: "Amazon Web Services 2",
-      companyURL: "https://aws.amazon.com/",
+      companyName: "ThinkDiff",
+      companyURL: "https://thinkdiff.us/",
     },
-    role: "Software Engineer 2",
-    duration: " July 2024 - Present",
+    role: "Intern Frontend Developer",
+    duration: "June 2024 - September 2024",
     description: [
-      "💙 Selected as one of 10 CSUF students for the prestigious Amazon Student Fellowship program",
-      "💙 Selected as one of 10 CSUF students for the prestigious Amazon Student Fellowship program 2",
-    ],
-  },
-  {
-    company: {
-      companyName: "Amazon Web Services 3",
-      companyURL: "https://aws.amazon.com/",
-    },
-    role: "Software Engineer 3",
-    duration: " July 2024 - Present",
-    description: [
-      "💙 Selected as one of 10 CSUF students for the prestigious Amazon Student Fellowship program",
-      "💙 Selected as one of 10 CSUF students for the prestigious Amazon Student Fellowship program 2",
+      "💙 Experimented with modern front-end technologies such as React.js, Redux, and Tailwind CSS during the development of the web application to improve performance and scalability.",
     ],
   },
 ];
@@ -87,113 +82,122 @@ export const experienceData: IExperience[] = [
 
 export const projectsData: IProject[] = [
   {
-    name: "Ziohair 2025",
+    name: "Ziohair",
     description:
-      "ACM at CSUF 1-week virtual website hackathon for Spring 2024, animation built using GSAP",
+      "The site showcases services, stylist profiles, promotional offers, and facilitates easy booking inquiries.",
     techStack: [
       { icon: RiNextjsFill, techName: "NextJS" },
       { icon: BiLogoTypescript, techName: "TypeScript" },
       { icon: RiTailwindCssFill, techName: "TailwindCSS" },
+      { icon: SiRadixui, techName: "Radix UI" },
+      { icon: SiGreensock, techName: "Gsap" },
     ],
-    projectURL: "#",
-    thumbnailURL: "/images/ziohair_p.jpeg",
+    projectURL: "https://ziohair.vn/",
+    thumbnailURL: "/images/pjs/ziohair.png",
   },
   {
-    name: "Another Project",
-    description: "Another amazing project description",
+    name: "Hagiang Local",
+    description:
+      "A comprehensive tourism website dedicated to promoting Ha Giang's local culture, destinations, and services. The platform provides users with detailed information about tours, accommodations, cultural insights, and convenient booking functionalities.",
     techStack: [
-      { icon: SiReact, techName: "React" },
-      { icon: SiJavascript, techName: "JavaScript" },
-      { icon: SiNodedotjs, techName: "Node.js" },
+      { icon: RiNextjsFill, techName: "NextJS" },
+      { icon: BiLogoTypescript, techName: "TypeScript" },
+      { icon: RiTailwindCssFill, techName: "TailwindCSS" },
+      { icon: SiRadixui, techName: "Radix UI" },
+      { icon: SiGreensock, techName: "Gsap" },
     ],
-    projectURL: "#",
-    thumbnailURL: "/images/another_project.jpeg",
+    projectURL: "https://hagiang-local.okhub-tech.com/",
+    thumbnailURL: "/images/pjs/hagiang.png",
+  },
+  {
+    name: "Top of the Loop",
+    description:
+      "A comprehensive tourism website dedicated to promoting Ha Giang's local culture, destinations, and services. The platform provides users with detailed information about tours, accommodations, cultural insights, and convenient booking functionalities.",
+    techStack: [
+      { icon: RiNextjsFill, techName: "NextJS" },
+      { icon: BiLogoTypescript, techName: "TypeScript" },
+      { icon: RiTailwindCssFill, techName: "TailwindCSS" },
+      { icon: SiRadixui, techName: "Radix UI" },
+      { icon: SiGreensock, techName: "Gsap" },
+    ],
+    projectURL: "https://banana.okhub-tech.com/",
+    thumbnailURL: "/images/pjs/banana.png",
+  },
+  {
+    name: "Saigon Uniform",
+    description:
+      "An e-commerce website specializing in providing highquality uniforms for businesses, schools, and organizations. The platform showcases product catalogs, enables online ordering, and facilitates customer inquiries for bulk purchases.",
+    techStack: [
+      { icon: RiNextjsFill, techName: "NextJS" },
+      { icon: BiLogoTypescript, techName: "TypeScript" },
+      { icon: RiTailwindCssFill, techName: "TailwindCSS" },
+      { icon: SiRadixui, techName: "Radix UI" },
+      { icon: SiGreensock, techName: "Gsap" },
+    ],
+    projectURL: "https://saigonuniform.com/",
+    thumbnailURL: "/images/pjs/saigon.png",
   },
 ];
 
 // home page skills data
 
 export const skillsData: ISkill[] = [
-    {
+  {
     icon: RiNextjsFill,
     url: "https://nextjs.org/",
-    },
-    {
+  },
+  {
     icon: BiLogoTypescript,
     url: "https://www.typescriptlang.org/",
-    },
-    {
+  },
+  {
     icon: RiTailwindCssFill,
     url: "https://tailwindcss.com/",
-    }
-    ,
-    {icon: FaHtml5,
-    url: "https://developer.mozilla.org/en-US/docs/Web/HTML"
-    },
-    {icon: FaCss3Alt,
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS"
-    },
-    {icon: SiSass,
-    url: "https://sass-lang.com/"
-    },
-    {icon: FaBootstrap,
-    url: "https://getbootstrap.com/"
-    },
-    {icon: RiJavascriptFill,
-    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    },
-    {icon: FaReact,
-    url: "https://react.dev/"
-    },
-    {icon: TbBrandRedux,
-    url: "https://redux.js.org/"
-    },
-    {icon: AiOutlineAntDesign,
-    url: "https://ant.design/"
-    },
-    {icon: SiShadcnui,
-    url: "https://shadcn.com/"
-    },
-    {icon: FaNodeJs,
-    url: "https://nodejs.org/en"
-    },
-    {icon: SiMongodb,
-    url: "https://www.mongodb.com/"
-    },
-    {icon: CgFigma,
-    url: "https://www.figma.com/"
-    },
-    {icon: FaWordpress,
-    url: "https://wordpress.com/"}
-]
+  },
+  { icon: FaHtml5, url: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+  { icon: FaCss3Alt, url: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+  { icon: SiSass, url: "https://sass-lang.com/" },
+  { icon: FaBootstrap, url: "https://getbootstrap.com/" },
+  {
+    icon: RiJavascriptFill,
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  { icon: FaReact, url: "https://react.dev/" },
+  { icon: TbBrandRedux, url: "https://redux.js.org/" },
+  { icon: AiOutlineAntDesign, url: "https://ant.design/" },
+  { icon: SiShadcnui, url: "https://shadcn.com/" },
+  { icon: FaNodeJs, url: "https://nodejs.org/en" },
+  { icon: SiMongodb, url: "https://www.mongodb.com/" },
+  { icon: CgFigma, url: "https://www.figma.com/" },
+  { icon: FaWordpress, url: "https://wordpress.com/" },
+];
 
 // home page about data
-export const aboutData: IAbout = 
-    {
-    thumbnailURL: "/images/_memoji.png",
-    desc : [
-        "I’m from Vietnam, started programming back in 2020 and turned it into a hobby",
-        "My focus is fullstack web development, but I also create and explore other fields such as Data Science, Machine Learning",
-        "Besides from programming, I also do graphic design, listen to music, go to the gym, and create content for my Youtube channel"
-    ]
-    }
-    
+export const aboutData: IAbout = {
+  thumbnailURL: "/images/minh.png",
+  desc: [
+    "Hi, I’m Minh, started programming back in 2025 and turned it into a hobby",
+    "My focus on front-end web development, but I also regularly learn and explore back-end with a view to fullstack web in the future.",
+    "Besides programming, I also enjoy listening to music, swimming and playing video games.",
+  ],
+};
+
 // home page contact data
-    export const contactData: IContact[] = [
-    {
+export const contactData: IContact[] = [
+  {
     icon: FaLinkedin,
-    url: "https://nextjs.org/",
-    },
-{
+    url: "https://www.linkedin.com/in/ng%E1%BB%8Dc-minh-ph%E1%BA%A1m-854312374/",
+  },
+  {
     icon: FaGithub,
-    url: "https://nextjs.org/",
-    },
-    {
+    url: "https://github.com/NgocMinh10122001",
+  },
+  {
     icon: IoMdMail,
-    url: "https://nextjs.org/",
-    },
-    {
-    icon: IoLogoYoutube,
-    url: "https://nextjs.org/",
-    },
-]
+    url: "mailto:phamngocminh10122001@gmail.com",
+  },
+  {
+    icon: FaFacebookF,
+    url: "https://www.facebook.com/minh.pham.266142/",
+  },
+];

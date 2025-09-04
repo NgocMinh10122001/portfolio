@@ -46,7 +46,7 @@ export default function Experience({
                 <div
                   key={index}
                   data-aos="fade-left"
-                  data-aos-duration="800"
+                  data-aos-duration="1000"
                   data-aos-offset="200"
                   className={`max-sm:px-4 flex-1 h-[22.5rem] flex flex-col justify-center  `}
                 >

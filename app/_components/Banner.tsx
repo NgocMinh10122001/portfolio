@@ -9,7 +9,7 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
     >
       <div className="banner__intro text-center font-bold">
         <p
-          data-aos="fade"
+          data-aos="zoom-in"
           data-aos-duration="1000"
           className="text-3xl sm:text-5xl"
         >
@@ -18,7 +18,7 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
         <p
           data-aos="fade-right"
           data-aos-duration="1000"
-          data-aos-delay="600"
+          data-aos-delay="400"
           className="text-3xl sm:text-5xl block mt-3 sm:mt-6"
         >
           Im <strong className="text-blue-400">{name || "Ngoc Minh 1"}</strong>
@@ -26,7 +26,7 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
         <p
           data-aos="fade-left"
           data-aos-duration="1000"
-          data-aos-delay="1000"
+          data-aos-delay="800"
           className=" mt-3 sm:mt-8 text-base sm:text-2xl"
         >
           {position || "Frontend Web Developer 1"}

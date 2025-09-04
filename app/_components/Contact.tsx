@@ -23,6 +23,9 @@ export default function Contact({
               href={item.url ?? "#"}
               target="_blank"
               className=""
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              data-aos-delay={index * 200}
             >
               <item.icon className="text-[2rem] sm:text-[2.5rem]" />
             </Link>

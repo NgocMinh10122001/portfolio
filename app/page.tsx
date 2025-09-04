@@ -21,7 +21,7 @@ export default function Home() {
       <Banner
         name="Ngoc Minh"
         position="Frontend Web Developer"
-        resumeURL="https://www.topcv.vn/xem-cv/VAkFUghdAlcLAFJSUQFQXlMCB1IEBAdRVwRQVw3c7c"
+        resumeURL="https://www.topcv.vn/documents/view/eyJpdiI6Ik03Q2pyMVVBd0Ixamk5enRIQkxCc1E9PSIsInZhbHVlIjoiMmpZU3U0K1U0MGxBMVE1eVJJbXdhbnVyRDNoNUZUTlYzMFhBclJXMmJ2c3ZvRDAwbExRSTB0ekJPRFhtcDBUT3Q2dER5MHF0cnhMTlRpODhyRWVkRmJKRHpwN1cvQTA1UVc4Yitia1AzRmUwLzIxU3J5RERMQXN1cVVMM05IY0giLCJtYWMiOiI1OTIzOWJhNGY3Mzc2MGZhMzE5NTlhOTY4ZDVhMDU2ZWRmNDE2Y2U2ZTE2YWM2Nzc2NDZiYjRkNzA2ZGEyNzIwIiwidGFnIjoiIn0="
       />
       <Seperator />
       <Experience title="Experience" experiences={experienceData} />
