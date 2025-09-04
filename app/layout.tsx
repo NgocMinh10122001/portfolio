@@ -12,7 +12,7 @@ export const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Ngoc Minh - Web Developer",
   description: "Portfolio of Ngoc Minh - Frontend Developer",
 };
 
