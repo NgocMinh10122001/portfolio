@@ -21,7 +21,7 @@ export default function Home() {
       <Banner
         name="Ngoc Minh"
         position="Frontend Web Developer"
-        resumeURL="https://www.topcv.vn/documents/view/eyJpdiI6Ik03Q2pyMVVBd0Ixamk5enRIQkxCc1E9PSIsInZhbHVlIjoiMmpZU3U0K1U0MGxBMVE1eVJJbXdhbnVyRDNoNUZUTlYzMFhBclJXMmJ2c3ZvRDAwbExRSTB0ekJPRFhtcDBUT3Q2dER5MHF0cnhMTlRpODhyRWVkRmJKRHpwN1cvQTA1UVc4Yitia1AzRmUwLzIxU3J5RERMQXN1cVVMM05IY0giLCJtYWMiOiI1OTIzOWJhNGY3Mzc2MGZhMzE5NTlhOTY4ZDVhMDU2ZWRmNDE2Y2U2ZTE2YWM2Nzc2NDZiYjRkNzA2ZGEyNzIwIiwidGFnIjoiIn0="
+        resumeURL="https://www.topcv.vn/documents/view/eyJpdiI6InJDc3UxRnVRT2pOUTR4aEFFVWVONXc9PSIsInZhbHVlIjoiUnNxL0d2cUR4UFZDdTM4ZEt2RUlzdHlTU3hPSXhrbXdIVGQvc2NBYldod3FoM3JhVFNOQzNtcFAvOFlRUHVzWHpFeHZlMmUwY2dlT1VWWXdSQXFUTXpsUTNERXM5eld0VnJvR1ZYelJOK082TEtmSGcranZQZkZBS0E4N1c2WlYiLCJtYWMiOiI0MWIxMTljZjUwZTY0MGIwYWNkM2ZjZTcwYjA0Y2M0ZDMyNGY3YzQ2YjI3OTBmNDlkNDFhMTQ4YTNkYzhhODM1IiwidGFnIjoiIn0="
       />
       <Seperator />
       <Experience title="Experience" experiences={experienceData} />

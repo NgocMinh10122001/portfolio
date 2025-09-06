@@ -27,6 +27,7 @@ import { IoMdMail } from "react-icons/io";
 import { SiRadixui } from "react-icons/si";
 import { SiGreensock } from "react-icons/si";
 import { FaFacebookF } from "react-icons/fa6";
+import { RiPhpFill } from "react-icons/ri";
 
 // header links
 
@@ -100,11 +101,12 @@ export const projectsData: IProject[] = [
     description:
       "A comprehensive tourism website dedicated to promoting Ha Giang's local culture, destinations, and services. The platform provides users with detailed information about tours, accommodations, cultural insights, and convenient booking functionalities.",
     techStack: [
-      { icon: RiNextjsFill, techName: "NextJS" },
-      { icon: BiLogoTypescript, techName: "TypeScript" },
-      { icon: RiTailwindCssFill, techName: "TailwindCSS" },
-      { icon: SiRadixui, techName: "Radix UI" },
-      { icon: SiGreensock, techName: "Gsap" },
+      { icon: FaHtml5, techName: "Html" },
+      { icon: FaCss3Alt, techName: "Css" },
+      { icon: RiJavascriptFill, techName: "Javascript" },
+      { icon: RiPhpFill, techName: "Php" },
+      { icon: FaWordpress, techName: "Wordpress" },
+      { icon: FaGithub, techName: "Aos" },
     ],
     projectURL: "https://hagiang-local.okhub-tech.com/",
     thumbnailURL: "/images/pjs/hagiang.png",
@@ -114,11 +116,11 @@ export const projectsData: IProject[] = [
     description:
       "A comprehensive tourism website dedicated to promoting Ha Giang's local culture, destinations, and services. The platform provides users with detailed information about tours, accommodations, cultural insights, and convenient booking functionalities.",
     techStack: [
-      { icon: RiNextjsFill, techName: "NextJS" },
-      { icon: BiLogoTypescript, techName: "TypeScript" },
-      { icon: RiTailwindCssFill, techName: "TailwindCSS" },
-      { icon: SiRadixui, techName: "Radix UI" },
-      { icon: SiGreensock, techName: "Gsap" },
+      { icon: FaHtml5, techName: "Html" },
+      { icon: FaCss3Alt, techName: "Css" },
+      { icon: RiJavascriptFill, techName: "Javascript" },
+      { icon: RiPhpFill, techName: "Php" },
+      { icon: FaWordpress, techName: "Wordpress" },
     ],
     projectURL: "https://banana.okhub-tech.com/",
     thumbnailURL: "/images/pjs/banana.png",
@@ -128,11 +130,11 @@ export const projectsData: IProject[] = [
     description:
       "An e-commerce website specializing in providing highquality uniforms for businesses, schools, and organizations. The platform showcases product catalogs, enables online ordering, and facilitates customer inquiries for bulk purchases.",
     techStack: [
-      { icon: RiNextjsFill, techName: "NextJS" },
-      { icon: BiLogoTypescript, techName: "TypeScript" },
-      { icon: RiTailwindCssFill, techName: "TailwindCSS" },
-      { icon: SiRadixui, techName: "Radix UI" },
-      { icon: SiGreensock, techName: "Gsap" },
+      { icon: FaHtml5, techName: "Html" },
+      { icon: FaCss3Alt, techName: "Css" },
+      { icon: RiJavascriptFill, techName: "Javascript" },
+      { icon: RiPhpFill, techName: "Php" },
+      { icon: FaWordpress, techName: "Wordpress" },
     ],
     projectURL: "https://saigonuniform.com/",
     thumbnailURL: "/images/pjs/saigon.png",
