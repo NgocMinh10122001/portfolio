@@ -108,7 +108,7 @@ export const projectsData: IProject[] = [
       { icon: FaWordpress, techName: "Wordpress" },
       { icon: FaGithub, techName: "Aos" },
     ],
-    projectURL: "https://hagiang-local.okhub-tech.com/",
+    projectURL: "https://motorbikevietnamtour.com/",
     thumbnailURL: "/images/pjs/hagiang.png",
   },
   {
