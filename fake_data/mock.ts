@@ -59,7 +59,7 @@ export const experienceData: IExperience[] = [
       companyURL: "https://okhub.vn/",
     },
     role: "Intern Frontend Developer",
-    duration: "March 2025 - July 2025",
+    duration: "March 2025 - August 2025",
     description: [
       "💙 Developed and maintained high-performance, responsive front-end features for the website using React.js, Next.js, and WordPress, contributing to improved page load speed and a smoother user experience.",
       "💙 Built interactive user interfaces, including booking forms and search filters, integrated with RESTful APIs to fetch and display dynamic data.",
