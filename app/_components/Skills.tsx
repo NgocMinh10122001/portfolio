@@ -20,9 +20,10 @@ export default function Skills({
           skills.length > 0 &&
           skills.map((item, index) => (
             <Link key={index} href={item?.url || "#"} 
-            data-aos={index % 2 ? 'fade-up' : 'fade-down'}
+            data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-offset="100"
+            data-aos-delay={index * 50}
             target="_blank">
               <item.icon className="text-4xl sm:text-6xl" />
             </Link>

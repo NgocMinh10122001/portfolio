@@ -15,7 +15,7 @@ export default function About({
         {title || "About Me"}
       </h2>
       <article className="flex max-sm:px-4 flex-col sm:flex-row  justify-center items-center gap-10 sm:gap-12 mt-10 sm:mt-20">
-        <div data-aos="fade-right" data-aos-duration="800">
+        <div>
           <Image
             src={about?.thumbnailURL || "/images/avatar.png"}
             alt="profile"
@@ -25,8 +25,6 @@ export default function About({
           />
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-duration="1000"
           className="space-y-6 w-full sm:w-[60.5rem] max-sm:text-center"
         >
           {about?.desc &&

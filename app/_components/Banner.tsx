@@ -11,7 +11,7 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
         <p
           data-aos="zoom-in"
           data-aos-duration="1000"
-          className="text-3xl sm:text-5xl"
+          className="text-3xl sm:text-6xl"
         >
           Xin chao,
         </p>
@@ -19,7 +19,7 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="500"
-          className="text-3xl sm:text-5xl block mt-3 sm:mt-6"
+          className="text-3xl sm:text-6xl block mt-3 sm:mt-6"
         >
           Im <strong className="text-blue-400">{name || "Ngoc Minh 1"}</strong>
         </p>
@@ -27,12 +27,12 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="900"
-          className=" mt-3 sm:mt-8 text-base sm:text-2xl"
+          className=" mt-3 sm:mt-8 text-base sm:text-3xl"
         >
           {position || "Frontend Web Developer 1"}
         </p>
       </div>
-      <div className="banner__thumb w-24 h-24 max-sm:mt-8 sm:w-32 sm:h-32 sm:absolute sm:top-36 right-[25%] animate-custom-ping1">
+      <div className="sm:hidden banner__thumb w-24 h-24 max-sm:mt-8 sm:w-32 sm:h-32 sm:absolute sm:top-36 right-[25%]">
         <Image
           src="/images/_memoji.png"
           width={500}
@@ -41,7 +41,7 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
           className="w-full h-full object-contain"
         />
       </div>
-      <Link href={resumeURL ?? "#"} target="_blank" className=" banner__resume mt-10 sm:mt-20  w-fit h-fit bg-blue-400 text-dark-700 text-base sm:text-xl font-bold hover:bg-gray-hover-400 hover:text-white transition-all duration-300 px-4 py-2 sm:px-5 sm:py-3 rounded-lg text-center cursor-pointer">
+      <Link href={resumeURL ?? "#"} target="_blank" className="hover:scale-125 banner__resume mt-10 sm:mt-20  w-fit h-fit bg-blue-400 text-dark-700 text-base sm:text-xl font-bold hover:bg-gray-hover-400 hover:text-white transition-all duration-500 px-4 py-2 sm:px-5 sm:py-3 rounded-lg text-center cursor-pointer">
         <span>My resume</span>
       </Link>
     </section>
