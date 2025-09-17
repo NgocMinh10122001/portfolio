@@ -28,7 +28,7 @@ export default function Projects({
               target="_blank"
               data-aos="fade-up"
               data-aos-duration="1000"
-              data-aos-offset="200"
+              data-aos-offset="250"
               // style={{transition: '0.2s cubic-bezier(0.57, 0.01, 0, 0.99)'}}
             >
               <div className="bg-gray-active  h-[27rem] sm:h-[32rem] rounded-b-2xl sm:hover:scale-110 transition-all duration-300 ease-in-out cursor-pointer">

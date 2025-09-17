@@ -49,7 +49,7 @@ export default function Experience({
                   key={index}
                   data-aos="fade-left"
                   data-aos-duration="1000"
-                  data-aos-offset="200"
+                  data-aos-offset="250"
                   className={`max-sm:px-4 flex-1 h-[22.5rem] flex flex-col justify-center  `}
                 >
                   <p className="text-base sm:text-2xl font-semibold">

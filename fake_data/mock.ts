@@ -61,9 +61,10 @@ export const experienceData: IExperience[] = [
     role: "Intern Frontend Developer",
     duration: "March 2025 - August 2025",
     description: [
-      "💙 Developed and maintained high-performance, responsive front-end features for the website using React.js, Next.js, and WordPress, contributing to improved page load speed and a smoother user experience.",
-      "💙 Built interactive user interfaces, including booking forms and search filters, integrated with RESTful APIs to fetch and display dynamic data.",
-      "💙 Implemented server-side rendering (SSR) using Next.js for critical pages, improving SEO rankings for key product pages by 20% and enhancing content discoverability",
+      "💙 Learned and apply soft skills and corporate culture through internship sessions organized by the company.",
+      "💪 Participated in a internship program focused on frontend development using Wordpress, ReactJS, NextJS, Tailwind CSS, Git, etc.",
+      "🤝 Collaborated with 5 member team to develop a few website following a clean architecture and best practice.",
+      "🧑‍💻 Present the final report and demo project of my team with project manager.",
     ],
   },
   {
@@ -74,7 +75,9 @@ export const experienceData: IExperience[] = [
     role: "Intern Frontend Developer",
     duration: "June 2024 - September 2024",
     description: [
-      "💙 Experimented with modern front-end technologies such as React.js, Redux, and Tailwind CSS during the development of the web application to improve performance and scalability.",
+      "💙 Learned and used new technologies like React JS, Next JS, Tailwind Css,...",
+      "👏 Collaborated with 3 member with frontend team to development some comic websites.",
+      "👌 Learned how to deploy projects in production environment."
     ],
   },
 ];
