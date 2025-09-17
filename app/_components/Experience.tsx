@@ -10,6 +10,8 @@ export default function Experience({
   experiences: IExperience[];
 }) {
   const [active, setActive] = useState<number>(0);
+
+
   return (
     <section id="experience" className="sm:pb-40">
       <h2 className="text-blue-400 text-3xl sm:text-5xl font-bold text-center">

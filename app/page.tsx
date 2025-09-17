@@ -20,13 +20,13 @@ export default function Home() {
       <AOSInitializer />
       <Banner
         name="Ngoc Minh"
-        position="Frontend Web Developer"
-        resumeURL="https://www.topcv.vn/documents/view/eyJpdiI6InJDc3UxRnVRT2pOUTR4aEFFVWVONXc9PSIsInZhbHVlIjoiUnNxL0d2cUR4UFZDdTM4ZEt2RUlzdHlTU3hPSXhrbXdIVGQvc2NBYldod3FoM3JhVFNOQzNtcFAvOFlRUHVzWHpFeHZlMmUwY2dlT1VWWXdSQXFUTXpsUTNERXM5eld0VnJvR1ZYelJOK082TEtmSGcranZQZkZBS0E4N1c2WlYiLCJtYWMiOiI0MWIxMTljZjUwZTY0MGIwYWNkM2ZjZTcwYjA0Y2M0ZDMyNGY3YzQ2YjI3OTBmNDlkNDFhMTQ4YTNkYzhhODM1IiwidGFnIjoiIn0="
+        position="Frontend Developer"
+        resumeURL="https://github.com/NgocMinh10122001"
       />
       <Seperator />
       <Experience title="Experience" experiences={experienceData} />
       <Seperator />
-      <Projects title="Projects" projects={projectsData} githubURL="https://github.com/NgocMinh10122001" />
+      <Projects title="Projects" projects={projectsData} githubURL="https://github.com/NgocMinh10122001?tab=repositories" />
       <Seperator />
       <Skills
         title="Skills"

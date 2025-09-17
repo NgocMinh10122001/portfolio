@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "./_components/Header";
 import { navLinks } from "@/fake_data/mock";
 import SmoothScroll from "./_components/SmoothScroll";
+import BackToTopEnhanced from "@/components/BackToTop";
 
 export const poppins = Poppins({
   variable: "--font-poppins",
@@ -27,6 +28,7 @@ export default function RootLayout({
         <SmoothScroll>
           <Header navLinks={navLinks} />
           {children}
+          <BackToTopEnhanced/>
         </SmoothScroll>
       </body>
     </html>

@@ -25,7 +25,7 @@ export default function Contact({
               className=""
               data-aos="zoom-in"
               data-aos-duration="1000"
-              data-aos-delay={index * 150}
+              data-aos-delay={index * 100}
             >
               <item.icon className="text-[2rem] sm:text-[2.5rem]" />
             </Link>

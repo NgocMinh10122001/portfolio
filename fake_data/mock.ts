@@ -34,19 +34,19 @@ import { RiPhpFill } from "react-icons/ri";
 export const navLinks: INavigation[] = [
   {
     name: "Projects",
-    url: "#projects",
+    url: "projects",
   },
   {
     name: "Experience",
-    url: "#experience",
+    url: "experience",
   },
   {
     name: "About",
-    url: "#about",
+    url: "about",
   },
   {
     name: "Contact",
-    url: "#contact",
+    url: "contact",
   },
 ];
 

@@ -4,11 +4,10 @@
 }
 
 @layer utilities {
-  
 }
 
 @theme inline {
-  --tw-text-opacity : 1;
+  --tw-text-opacity: 1;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-dark-700: rgb(37 37 37 / var(--tw-bg-opacity, 1));
@@ -18,7 +17,7 @@
   --color-blue-400: #bbd2ff;
   --color-blue-500: rgb(100 181 228 / var(--tw-text-opacity));
   --color-blue-600: rgb(0 132 199 / var(--tw-text-opacity, 1));
-  --color-gray-active : #3b3b3b;
+  --color-gray-active: #3b3b3b;
   --color-gray-hover-400: rgb(111 126 156);
   --font-sans: var(--font-poppins); /* THÊM DÒNG NÀY */
 }
@@ -40,5 +39,31 @@ html {
 
 body {
   font-family: var(--font-poppins), sans-serif; /* THÊM DÒNG NÀY */
-  
+}
+
+@keyframes custom-ping1 {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes custom-ping2 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-custom-ping1 {
+  animation: custom-ping1 4s cubic-bezier(0, 0, 0.2, 1);
 }
