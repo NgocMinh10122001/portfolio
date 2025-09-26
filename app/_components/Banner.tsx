@@ -7,9 +7,9 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
       id="banner"
       className="banner relative flex pt-24 sm:pt-40  pb-4 flex-col items-center max-sm:px-4"
     >
-      <div className="banner__intro text-center font-bold animate-custom-ping1">
+      <div className="banner__intro text-center font-bold ">
         <p
-          data-aos="zoom-in"
+          data-aos="fade-left"
           data-aos-duration="1000"
           className="text-3xl sm:text-6xl"
         >
@@ -32,16 +32,16 @@ export default function Banner({name , position, resumeURL}: {name?: string, pos
           {position || "Frontend Web Developer 1"}
         </p>
       </div>
-      <div className="sm:hidden banner__thumb w-24 h-24 max-sm:mt-8 sm:w-32 sm:h-32 sm:absolute sm:top-36 right-[25%]">
+      <div className=" banner__thumb w-24 h-24 max-sm:mt-8 sm:w-32 sm:h-32 sm:absolute sm:top-36 right-[25%] rounded-full overflow-hidden">
         <Image
-          src="/images/_memoji.png"
+          src="/images/minh.png"
           width={500}
           height={500}
           alt="Picture of the author"
-          className="w-full h-full object-contain"
+          className="w-full h-full object-cover"
         />
       </div>
-      <Link href={resumeURL ?? "#"} target="_blank" className="hover:scale-125 banner__resume mt-10 sm:mt-20  w-fit h-fit bg-blue-400 text-dark-700 text-base sm:text-xl font-bold hover:bg-gray-hover-400 hover:text-white transition-all duration-500 px-4 py-2 sm:px-5 sm:py-3 rounded-lg text-center cursor-pointer">
+      <Link href={resumeURL ?? "#"} target="_blank" className=" banner__resume mt-10 sm:mt-20  w-fit h-fit bg-blue-400 text-dark-700 text-base sm:text-xl font-bold hover:bg-gray-hover-400 hover:text-white transition-all duration-150 px-4 py-2 sm:px-5 sm:py-3 rounded-lg text-center cursor-pointer">
         <span>My resume</span>
       </Link>
     </section>

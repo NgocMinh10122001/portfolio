@@ -20,7 +20,7 @@ export default function Home() {
       <AOSInitializer />
       <Banner
         name="Ngoc Minh"
-        position="Frontend Developer"
+        position="Frontend Web Developer"
         resumeURL="https://github.com/NgocMinh10122001"
       />
       <Seperator />

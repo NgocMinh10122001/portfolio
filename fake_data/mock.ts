@@ -28,6 +28,9 @@ import { SiRadixui } from "react-icons/si";
 import { SiGreensock } from "react-icons/si";
 import { FaFacebookF } from "react-icons/fa6";
 import { RiPhpFill } from "react-icons/ri";
+import { SiClerk } from "react-icons/si";
+import { BsStripe } from "react-icons/bs";
+import { RiBearSmileFill } from "react-icons/ri";
 
 // header links
 
@@ -85,6 +88,54 @@ export const experienceData: IExperience[] = [
 // home page projects data
 
 export const projectsData: IProject[] = [
+  {
+    name: "QAStore_Admin",
+    description:
+      "The website manages a collection of exquisite Ao Dai for women, combining traditional elegance with modern design.",
+    techStack: [
+      { icon: RiNextjsFill, techName: "NextJS" },
+      { icon: RiTailwindCssFill, techName: "TailwindCSS" },
+      { icon: SiClerk, techName: "Clerk" },
+      { icon: SiMongodb, techName: "Mongo" },
+      { icon: BsStripe, techName: "Stripe" },
+      { icon: SiShadcnui, techName: "Shadcn" },
+
+
+    ],
+    projectURL: "https://github.com/NgocMinh10122001/QAStore_Admin",
+    thumbnailURL: "/images/pjs/qastore_user.png",
+  },
+  {
+    name: "QAStore",
+    description:
+      "The website showcases a sophisticated collection of Ao Dai for women, blending traditional elegance with contemporary design.",
+    techStack: [
+      { icon: RiNextjsFill, techName: "NextJS" },
+      { icon: RiBearSmileFill, techName: "Zustand" },
+      { icon: SiClerk, techName: "Clerk" },
+      { icon: SiMongodb, techName: "Mongo" },
+      { icon: BsStripe, techName: "Stripe" },
+      { icon: SiShadcnui, techName: "Shadcn" },
+
+
+    ],
+    projectURL: "https://github.com/NgocMinh10122001/QAStore_User",
+    thumbnailURL: "/images/pjs/qastore_logo3.png",
+  },
+  {
+    name: "Ziohair",
+    description:
+      "The site showcases services, stylist profiles, promotional offers, and facilitates easy booking inquiries.",
+    techStack: [
+      { icon: RiNextjsFill, techName: "NextJS" },
+      { icon: BiLogoTypescript, techName: "TypeScript" },
+      { icon: RiTailwindCssFill, techName: "TailwindCSS" },
+      { icon: SiRadixui, techName: "Radix UI" },
+      { icon: SiGreensock, techName: "Gsap" },
+    ],
+    projectURL: "https://ziohair.vn/",
+    thumbnailURL: "/images/pjs/ziohair.png",
+  },
   {
     name: "Ziohair",
     description:
