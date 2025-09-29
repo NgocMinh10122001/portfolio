@@ -13,7 +13,7 @@ export default function Experience({
 
 
   return (
-    <section id="experience" className="sm:pb-40">
+    <section id="experience" className="sm:pb-40 max-sm:w-full max-sm:overflow-hidden">
       <h2 className="text-blue-400 text-3xl sm:text-5xl font-bold text-center">
         {title || "Experience"}
       </h2>
