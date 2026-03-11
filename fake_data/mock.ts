@@ -62,7 +62,7 @@ export const experienceData: IExperience[] = [
       companyURL: "https://okhub.vn/",
     },
     role: "Intern Frontend Developer",
-    duration: "March 2025 - August 2025",
+    duration: "February 2025 - June 2025",
     description: [
       "💙 Learned and apply soft skills and corporate culture through internship sessions organized by the company.",
       "💪 Participated in a internship program focused on frontend development using Wordpress, ReactJS, NextJS, Tailwind CSS, Git, etc.",
